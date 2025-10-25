@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    margin: none;
+    position: relative;
+}
+
+nav {
+    display: none;
+   
+    background-color: darkred;
+}
+
+body {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+footer {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navcheck:checked~nav {
+    display: block;
+}
+
+#navcheck {
+    display: none;
+}
+
+label {
+    font-size: 2em;
+    position: fixed;
+    left: 12px;
+    top: 130px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 5px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#Markiplier, #Woke {
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px 500px;
+    background-color: white;
+}
