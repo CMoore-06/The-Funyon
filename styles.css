@@ -42,13 +42,17 @@ a {
 
 label {
     font-size: 2em;
-    position: fixed;
-    left: 12px;
-    top: 130px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 img {
     border-radius: 20px;
+}
+
+header img {
+    display: none;
 }
 
 ul a {
@@ -93,6 +97,33 @@ footer a:hover {
     }
 
     #Markiplier, #Woke {
+        width: 90%;
+    }
+
+    header img {
+        display: block;
+        float: left;
+        height: auto;
+        width: 50px;
+    }
+
+    #title {
         width: 30%;
+        text-align: center;
+        display: inline;
+    }
+}
+
+@media (min-width: 720px) {
+    #Markiplier, #Woke {
+        width: calc(60%);
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    header img {
+        width: 100px;
     }
 }
