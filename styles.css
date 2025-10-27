@@ -10,11 +10,12 @@ nav {
     display: none;
     padding: 5px;
     background-color: darkred;
+    width: 100%;
 }
 
 body {
     text-align: center;
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 footer {
@@ -49,6 +50,7 @@ label {
 
 img {
     border-radius: 20px;
+    padding-top: 5px;
 }
 
 header img {
@@ -92,7 +94,11 @@ footer a:hover {
 #trending, #featured {
     border: 2px solid black;
     margin: 10px;
-    background-color: darkgrey;
+    background-color: grey;
+}
+
+#featured {
+    margin-top: 20px;
 }
 
 .break {
@@ -103,6 +109,21 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.title3 {
+    text-decoration: underline;
+}
+
+.nav2 {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.nav2:hover {
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+/* This media query holds the style rules for any screen that is at least 576 pixles wide. */
 @media (min-width: 576px) {
     label {
         display: none;
@@ -114,6 +135,7 @@ footer a:hover {
 
     #trending, #featured {
         width: 90%;
+        background-color: darkgrey;
     }
 
     header img {
@@ -128,8 +150,17 @@ footer a:hover {
         text-align: center;
         display: inline;
     }
+
+    .title3 {
+        font-size: 30pt;
+    }
+
+    body {
+        background-color: grey;
+    }
 }
 
+/* This media query holds the style rules for everyscreen that is at least 720 pixels wide. */
 @media (min-width: 720px) {
     #trending, #featured {
         width: calc(60%);
@@ -142,5 +173,20 @@ footer a:hover {
 
     header img {
         width: 100px;
+    }
+
+    .title3 {
+        font-size: 35pt;
+    }
+}
+
+/* This media query holds the style rules for every screen that is at least 920 pixels wide. */
+@media (min-width: 992px) {
+    #title {
+        width: 40%;
+    }
+
+    .title3 {
+        font-size: 40pt;
     }
 }
