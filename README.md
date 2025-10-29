@@ -1,1 +1,4 @@
-This is an entirely fictional site created for a collage assignment.
+# Funyon
+Name: Cale Moore
+Project: Funyon
+GitHub Repo URL: https://github.com/<CMoore-06>/<The-Funyon>
